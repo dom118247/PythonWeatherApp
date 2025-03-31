@@ -31,3 +31,6 @@ Enter the name of the city: London
 Weather in London, GB:
 Temperature: 15°C
 Condition: clear sky
+
+cd C:\Users\dommi\weather-app
+Run on PS: python weather_app.py
