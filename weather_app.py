@@ -15,11 +15,11 @@ def get_weather(city, api_key):
     
     response = requests.get(url)
     
-    # Check if the request was successful
+    
     if response.status_code == 200:
         data = response.json()
         
-        # Extract weather details
+        
         city_name = data['name']
         country = data['sys']['country']
         temperature = data['main']['temp']
