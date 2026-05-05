@@ -37,7 +37,7 @@ def get_weather(city, api_key):
 
 def main():
     
-    api_key = "a3d47c1650a61ed2e5439dbdda3c6bdd" 
+    api_key = "API KEY HERE" 
     
     
     city = input("Enter the name of the city: ")
